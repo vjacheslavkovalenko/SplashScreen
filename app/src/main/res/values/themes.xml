@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SplashScreen" parent="Base.Theme.SplashScreen" />
+
+<!--    <style name="Theme.AppCompat.SplashScreen" parent="Theme.SplashScreen">-->
+<!--        <item name="windowSplashScreenBackground">@color/gray</item>-->
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/icleborobot_logo_round</item>-->
+<!--        <item name="postSplashScreenTheme">@style/Base.Theme.SplashScreen</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.SplashScreen.New" parent="Theme.AppCompat.DayNight.NoActionBar">-->
+<!--        <item name="android:windowBackground">@drawable/logo_splash</item>-->
+<!--        <item name="android:statusBarColor">@color/gray</item>-->
+<!--    </style>-->
+
+<!--    <style name="ThirdSplashTheme" parent="Theme.SplashScreen">-->
+<!--&lt;!&ndash;        <item name="android:windowBackground">@drawable/splash</item>&ndash;&gt;-->
+<!--        <item name="android:windowBackground">@drawable/logo_splash</item>-->
+<!--    </style>-->
+
+    <style name="Theme.AppCompat.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/gray</item>
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/ring</item>-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icleborobot_logo_round</item>
+<!--        <item name="android:statusBarColor">@color/gray</item>-->
+<!--<item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash</item>-->
+<!--        <item name="android:windowBackground">@drawable/logo_splash</item>-->
+        <item name="postSplashScreenTheme">@style/Base.Theme.SplashScreen</item>
+
+    </style>
+
+</resources>

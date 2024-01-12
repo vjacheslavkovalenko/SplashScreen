@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/gray"/>
+<!--    <item>-->
+<!--        <bitmap android:src="@drawable/icleborobot_logo_round"-->
+<!--            android:gravity="center"/>-->
+<!--    </item>-->
+
+<!--    <item android:drawable="@drawable/icleborobot_logo_round"-->
+<!--        android:gravity="center"/>-->
+<!--    <item android:drawable="@drawable/ring"-->
+<!--        android:gravity="center"/>-->
+
+    <item>
+        <animated-rotate
+            android:pivotY="50%"
+            android:pivotX="50%"
+            android:drawable="@drawable/ring"/>
+    </item>
+    <!--    android:pivotY="50%"-->
+    <!--    android:pivotX="50%"-->
+    <!--    android:drawable="@drawable/ring"-->
+</layer-list>
